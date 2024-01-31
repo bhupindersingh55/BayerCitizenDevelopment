@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-01-31 21:07:59">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<application_name>Deployment Pipeline</application_name>
+<application_scope>sn_deploy_pipeline</application_scope>
+<application_version>24.0.2</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Bay - TL - Deployment Pipeline  Assignment</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>2b2712971b5f219019647449cd4bcb38</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:59</sys_created_on>
+<sys_id>df7e1ac2878042507bd12fce8bbb35cf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:59</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>sys_dictionary_override_d88855d81be6e1d004c34150f54bcb10</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value>477a05d153013010b846ddeeff7b1225</default_value><default_value_override>true</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>assignment_group</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>sn_deploy_pipeline_deployment_request</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>EGMCF</sys_created_by><sys_created_on>2023-04-27 19:47:39</sys_created_on><sys_id>d88855d81be6e1d004c34150f54bcb10</sys_id><sys_mod_count>0</sys_mod_count><sys_name>assignment_group</sys_name><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>sys_dictionary_override_d88855d81be6e1d004c34150f54bcb10</sys_update_name><sys_updated_by>EGMCF</sys_updated_by><sys_updated_on>2023-04-27 19:47:39</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+<payload_hash>632205077</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Assignment">df7e1ac2878042507bd12fce8bbb35cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:59</sys_created_on>
+<sys_id>d37e1ac2878042507bd12fce8bbb35d0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b53c5f020000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:59</sys_updated_on>
+<table>sn_deploy_pipeline_deployment_request</table>
+<target_name>assignment_group</target_name>
+<type>Dictionary Entry Override</type>
+<update_domain>global</update_domain>
+<update_guid>668815d8bee6e1d0d891b4ef6fba3284</update_guid>
+<update_guid_history>668815d8bee6e1d0d891b4ef6fba3284:632205077</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

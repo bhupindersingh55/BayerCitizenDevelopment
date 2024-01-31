@@ -1,0 +1,1644 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-01-31 21:07:44">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<application_name>Deployment Pipeline</application_name>
+<application_scope>sn_deploy_pipeline</application_scope>
+<application_version>24.0.2</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Bay - TL - Deployment Pipeline  Suite Config</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>1556521b1b1f219019647449cd4bcb6b</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:43</sys_created_on>
+<sys_id>ff6e1206878042507bd12fce8bbb356d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:43</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_407c60b687ae1150fc79edbe8bbb3565</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="UI Buttons using getRowCount may cause performance issues">2d3aa4b287ae1150fc79edbe8bbb35da</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>407c60b687ae1150fc79edbe8bbb3565</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_407c60b687ae1150fc79edbe8bbb3565</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>1663379806</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>336e1206878042507bd12fce8bbb3571</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fffa0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>2d3aa4b287ae1150fc79edbe8bbb35da</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>047c60b61fae1150257353f868cc2a66</update_guid>
+<update_guid_history>047c60b61fae1150257353f868cc2a66:1663379806</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_807c60b687ae1150fc79edbe8bbb357d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Use g_form API instead of alert messages">2d3aa4b287ae1150fc79edbe8bbb35bf</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>807c60b687ae1150fc79edbe8bbb357d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_807c60b687ae1150fc79edbe8bbb357d</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-944419611</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>336e1206878042507bd12fce8bbb3574</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b539006e0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>2d3aa4b287ae1150fc79edbe8bbb35bf</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>447c60b66cae11508792151bc9be427e</update_guid>
+<update_guid_history>447c60b66cae11508792151bc9be427e:-944419611</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_c07c60b687ae1150fc79edbe8bbb357b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Use Flows instead of Async or After Business rules">e53aa4b287ae1150fc79edbe8bbb35c5</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>c07c60b687ae1150fc79edbe8bbb357b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_c07c60b687ae1150fc79edbe8bbb357b</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>113037734</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>336e1206878042507bd12fce8bbb3577</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b53900630000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>e53aa4b287ae1150fc79edbe8bbb35c5</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>847c60b6e4ae11502a22364b2a9e647c</update_guid>
+<update_guid_history>847c60b6e4ae11502a22364b2a9e647c:113037734</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_3b6c60b687ae1150fc79edbe8bbb351e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Detect any ^NQ in business rules">793ae4b287ae1150fc79edbe8bbb3535</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>3b6c60b687ae1150fc79edbe8bbb351e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_3b6c60b687ae1150fc79edbe8bbb351e</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>1145067587</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>376e1206878042507bd12fce8bbb3570</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fe010000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>793ae4b287ae1150fc79edbe8bbb3535</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>fb6c60b61eae11500075cfeca8f9ea1f</update_guid>
+<update_guid_history>fb6c60b61eae11500075cfeca8f9ea1f:1145067587</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_7b6c60b687ae1150fc79edbe8bbb353b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Limit the fields displayed in list layout">653aa4b287ae1150fc79edbe8bbb35c9</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>7b6c60b687ae1150fc79edbe8bbb353b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_7b6c60b687ae1150fc79edbe8bbb353b</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-1747714963</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>376e1206878042507bd12fce8bbb3573</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ff3a0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>653aa4b287ae1150fc79edbe8bbb35c9</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>3f6c60b69aae11501043578286d5163c</update_guid>
+<update_guid_history>3f6c60b69aae11501043578286d5163c:-1747714963</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_bb6c60b687ae1150fc79edbe8bbb3539</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Incident table should not be extended">bd3ae4b287ae1150fc79edbe8bbb352d</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>bb6c60b687ae1150fc79edbe8bbb3539</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_bb6c60b687ae1150fc79edbe8bbb3539</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-78838695</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>376e1206878042507bd12fce8bbb3576</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ff2e0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>bd3ae4b287ae1150fc79edbe8bbb352d</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>7f6c60b66bae115072b5a22e675a4b3a</update_guid>
+<update_guid_history>7f6c60b66bae115072b5a22e675a4b3a:-78838695</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_376c60b687ae1150fc79edbe8bbb3507</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Avoid global client scripts">e13aa4b287ae1150fc79edbe8bbb35b6</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>376c60b687ae1150fc79edbe8bbb3507</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_376c60b687ae1150fc79edbe8bbb3507</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-167024992</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>3b6e1206878042507bd12fce8bbb356f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fcb90000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>e13aa4b287ae1150fc79edbe8bbb35b6</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>f76c60b622ae1150eef2b3b618556808</update_guid>
+<update_guid_history>f76c60b622ae1150eef2b3b618556808:-167024992</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_776c60b687ae1150fc79edbe8bbb3543</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Query business rules should not use query() on GlideRecord">f13aa4b287ae1150fc79edbe8bbb35ff</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>776c60b687ae1150fc79edbe8bbb3543</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_776c60b687ae1150fc79edbe8bbb3543</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>791656428</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>3b6e1206878042507bd12fce8bbb3572</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ff6e0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>f13aa4b287ae1150fc79edbe8bbb35ff</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>3b6c60b6f4ae11507615583a92b8a344</update_guid>
+<update_guid_history>3b6c60b6f4ae11507615583a92b8a344:791656428</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_b76c60b687ae1150fc79edbe8bbb3503</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Avoid DOM manipulation">213aa4b287ae1150fc79edbe8bbb35bc</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>b76c60b687ae1150fc79edbe8bbb3503</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_b76c60b687ae1150fc79edbe8bbb3503</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-1276138657</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>3b6e1206878042507bd12fce8bbb3575</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fc7c0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>213aa4b287ae1150fc79edbe8bbb35bc</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>7b6c60b67eae1150841b91762b2a0604</update_guid>
+<update_guid_history>7b6c60b67eae1150841b91762b2a0604:-1276138657</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_fb6c60b687ae1150fc79edbe8bbb3518</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Choices label to be in proper case">a13aa4b287ae1150fc79edbe8bbb35cf</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>fb6c60b687ae1150fc79edbe8bbb3518</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_fb6c60b687ae1150fc79edbe8bbb3518</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>1427225595</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>3b6e1206878042507bd12fce8bbb3578</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fda40000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>a13aa4b287ae1150fc79edbe8bbb35cf</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>bf6c60b632ae11502125c565c157f819</update_guid>
+<update_guid_history>bf6c60b632ae11502125c565c157f819:1427225595</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_047c60b687ae1150fc79edbe8bbb3579</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Updates in wrong update set scope">bd3aa4b287ae1150fc79edbe8bbb35fa</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>047c60b687ae1150fc79edbe8bbb3579</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_047c60b687ae1150fc79edbe8bbb3579</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>714390161</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>3f6e1206878042507bd12fce8bbb356e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b539004b0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>bd3aa4b287ae1150fc79edbe8bbb35fa</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>c47c60b67eae1150beb9ff70e777397a</update_guid>
+<update_guid_history>c47c60b67eae1150beb9ff70e777397a:714390161</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_736c60b687ae1150fc79edbe8bbb352c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Enclose code in functions">2d3aa4b287ae1150fc79edbe8bbb35b3</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>736c60b687ae1150fc79edbe8bbb352c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_736c60b687ae1150fc79edbe8bbb352c</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-658995456</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>3f6e1206878042507bd12fce8bbb3571</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538febb0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>2d3aa4b287ae1150fc79edbe8bbb35b3</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>376c60b6a9ae1150b82b357a20cd072d</update_guid>
+<update_guid_history>376c60b6a9ae1150b82b357a20cd072d:-658995456</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_af6c20b687ae1150fc79edbe8bbb35f8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="ACLs without roles or condition or scripts">ed3aa4b287ae1150fc79edbe8bbb35d4</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:36</sys_created_on><sys_id>af6c20b687ae1150fc79edbe8bbb35f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_af6c20b687ae1150fc79edbe8bbb35f8</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:36</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-939458501</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>3f6e1206878042507bd12fce8bbb3574</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fbd70000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>ed3aa4b287ae1150fc79edbe8bbb35d4</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>6f6c20b69aae11504ad040a1a1c226fa</update_guid>
+<update_guid_history>6f6c20b69aae11504ad040a1a1c226fa:-939458501</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_f36c60b687ae1150fc79edbe8bbb3547</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Requested Restricted Caller Access Privileges">713aa4b287ae1150fc79edbe8bbb35f7</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>f36c60b687ae1150fc79edbe8bbb3547</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_f36c60b687ae1150fc79edbe8bbb3547</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>1493502430</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>3f6e1206878042507bd12fce8bbb3577</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ff880000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>713aa4b287ae1150fc79edbe8bbb35f7</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>b76c60b6feae1150e3b14c509868ab48</update_guid>
+<update_guid_history>b76c60b6feae1150e3b14c509868ab48:1493502430</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_m2m_2d9c64b687ae1150fc79edbe8bbb35af</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_m2m"><scan_check_suite_m2m action="INSERT_OR_UPDATE"><child_suite display_value="Import / Export">6a86615039412010fa9b2e4c8e969635</child_suite><parent_suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</parent_suite><sys_class_name>scan_check_suite_m2m</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:49:17</sys_created_on><sys_id>2d9c64b687ae1150fc79edbe8bbb35af</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_m2m_2d9c64b687ae1150fc79edbe8bbb35af</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:49:17</sys_updated_on></scan_check_suite_m2m></record_update>]]></payload>
+<payload_hash>1296823529</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>3f6e1206878042507bd12fce8bbb359e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b53900a10000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name/>
+<type>Suite Relationships</type>
+<update_domain>global</update_domain>
+<update_guid>299c64b6d4ae115048d15ec46f0b81b1</update_guid>
+<update_guid_history>299c64b6d4ae115048d15ec46f0b81b1:1296823529</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_3b6c20b687ae1150fc79edbe8bbb35ff</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Asynchronous AJAX call in on-submit client scripts">393ae4b287ae1150fc79edbe8bbb3537</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>3b6c20b687ae1150fc79edbe8bbb35ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_3b6c20b687ae1150fc79edbe8bbb35ff</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>688430577</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>736e1206878042507bd12fce8bbb3570</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fc3c0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>393ae4b287ae1150fc79edbe8bbb3537</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>fb6c60b663ae115022dee4ad5337f700</update_guid>
+<update_guid_history>fb6c60b663ae115022dee4ad5337f700:688430577</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_7b6c60b687ae1150fc79edbe8bbb351c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Customer Update in progress in multiple Update Sets">b13aa4b287ae1150fc79edbe8bbb35f5</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>7b6c60b687ae1150fc79edbe8bbb351c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_7b6c60b687ae1150fc79edbe8bbb351c</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-203809855</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>736e1206878042507bd12fce8bbb3573</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fde90000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>b13aa4b287ae1150fc79edbe8bbb35f5</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>3f6c60b691ae11507c03ce857f6a651d</update_guid>
+<update_guid_history>3f6c60b691ae11507c03ce857f6a651d:-203809855</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_bb6c60b687ae1150fc79edbe8bbb351a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Consider using getXMLAnswer instead of getXML">f13ae4b287ae1150fc79edbe8bbb3514</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>bb6c60b687ae1150fc79edbe8bbb351a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_bb6c60b687ae1150fc79edbe8bbb351a</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-119580339</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>736e1206878042507bd12fce8bbb3576</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fdbc0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>f13ae4b287ae1150fc79edbe8bbb3514</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>7f6c60b6ddae11507555387e22d2c41b</update_guid>
+<update_guid_history>7f6c60b6ddae11507555387e22d2c41b:-119580339</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_336c60b687ae1150fc79edbe8bbb354d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Scripts should not contain debugging statements in production">713ae4b287ae1150fc79edbe8bbb3516</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>336c60b687ae1150fc79edbe8bbb354d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_336c60b687ae1150fc79edbe8bbb354d</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-374476014</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>776e1206878042507bd12fce8bbb356f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ffbd0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>713ae4b287ae1150fc79edbe8bbb3516</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>f36c60b690ae1150413bd4f80094644e</update_guid>
+<update_guid_history>f36c60b690ae1150413bd4f80094644e:-374476014</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_776c60b687ae1150fc79edbe8bbb3524</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Do not use hard-coded sys_ids">793ae4b287ae1150fc79edbe8bbb350c</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>776c60b687ae1150fc79edbe8bbb3524</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_776c60b687ae1150fc79edbe8bbb3524</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-329182018</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>776e1206878042507bd12fce8bbb3572</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fe4b0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>793ae4b287ae1150fc79edbe8bbb350c</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>3b6c60b631ae115024718c9ec2c94525</update_guid>
+<update_guid_history>3b6c60b631ae115024718c9ec2c94525:-329182018</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_b36c60b687ae1150fc79edbe8bbb3549</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Runtime Access Tracking">ed3aa4b287ae1150fc79edbe8bbb35ad</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>b36c60b687ae1150fc79edbe8bbb3549</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_b36c60b687ae1150fc79edbe8bbb3549</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-1134587944</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>776e1206878042507bd12fce8bbb3575</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ff9c0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>ed3aa4b287ae1150fc79edbe8bbb35ad</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>776c60b69cae1150fba96a82b3ff4b4a</update_guid>
+<update_guid_history>776c60b69cae1150fba96a82b3ff4b4a:-1134587944</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_f76c60b687ae1150fc79edbe8bbb353f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Merge onSubmit() client scripts">a13aa4b287ae1150fc79edbe8bbb35b8</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>f76c60b687ae1150fc79edbe8bbb353f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_f76c60b687ae1150fc79edbe8bbb353f</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>726822828</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>776e1206878042507bd12fce8bbb3578</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ff4f0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>a13aa4b287ae1150fc79edbe8bbb35b8</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>bb6c60b6cfae1150150147cb601ba340</update_guid>
+<update_guid_history>bb6c60b6cfae1150150147cb601ba340:726822828</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_047c60b687ae1150fc79edbe8bbb355f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Table label should be in proper case">613aa4b287ae1150fc79edbe8bbb35d1</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>047c60b687ae1150fc79edbe8bbb355f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_047c60b687ae1150fc79edbe8bbb355f</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-967255670</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>7b6e1206878042507bd12fce8bbb356e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ffd60000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>613aa4b287ae1150fc79edbe8bbb35d1</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>c47c60b626ae11505f846434f9a05160</update_guid>
+<update_guid_history>c47c60b626ae11505f846434f9a05160:-967255670</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_736c60b687ae1150fc79edbe8bbb350d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Avoid the eval function">b13ae4b287ae1150fc79edbe8bbb3528</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>736c60b687ae1150fc79edbe8bbb350d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_736c60b687ae1150fc79edbe8bbb350d</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-1143632910</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>7b6e1206878042507bd12fce8bbb3571</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fd080000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>b13ae4b287ae1150fc79edbe8bbb3528</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>376c60b635ae1150835024876b0b5b0e</update_guid>
+<update_guid_history>376c60b635ae1150835024876b0b5b0e:-1143632910</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_ab6c20b687ae1150fc79edbe8bbb35fb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="ACLs without roles or condition or scripts">313aa4b287ae1150fc79edbe8bbb35f9</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>ab6c20b687ae1150fc79edbe8bbb35fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_ab6c20b687ae1150fc79edbe8bbb35fb</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-1179209159</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>7b6e1206878042507bd12fce8bbb3574</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fbfc0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>313aa4b287ae1150fc79edbe8bbb35f9</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>6f6c20b683ae1150395b4b0e5b93adfc</update_guid>
+<update_guid_history>6f6c20b683ae1150395b4b0e5b93adfc:-1179209159</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_f36c60b687ae1150fc79edbe8bbb3528</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Don't use new Object()">7d3ae4b287ae1150fc79edbe8bbb3519</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>f36c60b687ae1150fc79edbe8bbb3528</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_f36c60b687ae1150fc79edbe8bbb3528</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-1181987445</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>7b6e1206878042507bd12fce8bbb3577</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fe7b0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>7d3ae4b287ae1150fc79edbe8bbb3519</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>b76c60b6d0ae11509da346000bffa929</update_guid>
+<update_guid_history>b76c60b6d0ae11509da346000bffa929:-1181987445</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_ff6c60b687ae1150fc79edbe8bbb354e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Synchronous AJAX call in client scripts">f93ae4b287ae1150fc79edbe8bbb3533</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>ff6c60b687ae1150fc79edbe8bbb354e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_ff6c60b687ae1150fc79edbe8bbb354e</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-1024486399</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>7b6e1206878042507bd12fce8bbb359e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ffc80000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>f93ae4b287ae1150fc79edbe8bbb3533</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>7b6c60b6e4ae1150226ccd831073fd5c</update_guid>
+<update_guid_history>7b6c60b6e4ae1150226ccd831073fd5c:-1024486399</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_3f6c60b687ae1150fc79edbe8bbb3535</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="High number of workflows running for a single record">f93ae4b287ae1150fc79edbe8bbb350a</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>3f6c60b687ae1150fc79edbe8bbb3535</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_3f6c60b687ae1150fc79edbe8bbb3535</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>1654264815</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>7f6e1206878042507bd12fce8bbb3570</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ff170000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>f93ae4b287ae1150fc79edbe8bbb350a</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>ff6c60b6b5ae1150cd134ece6af8d336</update_guid>
+<update_guid_history>ff6c60b6b5ae1150cd134ece6af8d336:1654264815</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_807c60b687ae1150fc79edbe8bbb3563</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Tables without ACLs">253aa4b287ae1150fc79edbe8bbb35cb</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>807c60b687ae1150fc79edbe8bbb3563</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_807c60b687ae1150fc79edbe8bbb3563</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-1088256185</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>7f6e1206878042507bd12fce8bbb3573</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ffe40000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>253aa4b287ae1150fc79edbe8bbb35cb</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>447c60b6b7ae1150be14b7e025729164</update_guid>
+<update_guid_history>447c60b6b7ae1150be14b7e025729164:-1088256185</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_c07c60b687ae1150fc79edbe8bbb3561</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Table prefix and number of digits">e13aa4b287ae1150fc79edbe8bbb35cd</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>c07c60b687ae1150fc79edbe8bbb3561</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_c07c60b687ae1150fc79edbe8bbb3561</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>1550041915</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>7f6e1206878042507bd12fce8bbb3576</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ffdd0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>e13aa4b287ae1150fc79edbe8bbb35cd</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>847c60b68dae115057a1d6dfd31e4362</update_guid>
+<update_guid_history>847c60b68dae115057a1d6dfd31e4362:1550041915</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_336c60b687ae1150fc79edbe8bbb352e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Errored Flow engine context">f13aa4b287ae1150fc79edbe8bbb35f3</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>336c60b687ae1150fc79edbe8bbb352e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_336c60b687ae1150fc79edbe8bbb352e</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-295453853</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>b36e1206878042507bd12fce8bbb356f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fed50000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>f13aa4b287ae1150fc79edbe8bbb35f3</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>f36c60b63fae1150e138fc68da90c52f</update_guid>
+<update_guid_history>f36c60b63fae1150e138fc68da90c52f:-295453853</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_776c60b687ae1150fc79edbe8bbb3505</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Avoid Dot-Walking to the sys_id of a Reference Field">b13ae4b287ae1150fc79edbe8bbb3501</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>776c60b687ae1150fc79edbe8bbb3505</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_776c60b687ae1150fc79edbe8bbb3505</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>1447788711</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>b36e1206878042507bd12fce8bbb3572</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fc9f0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>b13ae4b287ae1150fc79edbe8bbb3501</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>3b6c60b643ae11505a1a4f5a052c1906</update_guid>
+<update_guid_history>3b6c60b643ae11505a1a4f5a052c1906:1447788711</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_b36c60b687ae1150fc79edbe8bbb352a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Duplicate Script Include Name">3d3ae4b287ae1150fc79edbe8bbb3531</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>b36c60b687ae1150fc79edbe8bbb352a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_b36c60b687ae1150fc79edbe8bbb352a</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>1398693239</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>b36e1206878042507bd12fce8bbb3575</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538feab0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>3d3ae4b287ae1150fc79edbe8bbb3531</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>776c60b6bfae11508aea6a42dea4bd2b</update_guid>
+<update_guid_history>776c60b6bfae11508aea6a42dea4bd2b:1398693239</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_f76c60b687ae1150fc79edbe8bbb3520</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Do not use getRowCount() for fetching row count">7d3aa4b287ae1150fc79edbe8bbb35fc</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>f76c60b687ae1150fc79edbe8bbb3520</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_f76c60b687ae1150fc79edbe8bbb3520</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-1151537148</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>b36e1206878042507bd12fce8bbb3578</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fe120000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>7d3aa4b287ae1150fc79edbe8bbb35fc</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>bb6c60b6b7ae1150fdb1851516806921</update_guid>
+<update_guid_history>bb6c60b6b7ae1150fdb1851516806921:-1151537148</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_007c60b687ae1150fc79edbe8bbb3581</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Use UI Policies instead of g_form API">a93aa4b287ae1150fc79edbe8bbb35c1</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>007c60b687ae1150fc79edbe8bbb3581</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_007c60b687ae1150fc79edbe8bbb3581</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>1114423675</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>b76e1206878042507bd12fce8bbb356e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b53900820000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>a93aa4b287ae1150fc79edbe8bbb35c1</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>c07c60b635ae1150ab3c126a3ec09282</update_guid>
+<update_guid_history>c07c60b635ae1150ab3c126a3ec09282:1114423675</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_447c60b687ae1150fc79edbe8bbb3577</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Update Scope Id is different than Update Set Scope Id">ed3aa4b287ae1150fc79edbe8bbb35ee</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>447c60b687ae1150fc79edbe8bbb3577</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_447c60b687ae1150fc79edbe8bbb3577</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-2130455762</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>b76e1206878042507bd12fce8bbb3571</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b53900310000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>ed3aa4b287ae1150fc79edbe8bbb35ee</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>087c60b6a7ae11509d511ef7b63a9a78</update_guid>
+<update_guid_history>087c60b6a7ae11509d511ef7b63a9a78:-2130455762</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_8c7c60b687ae1150fc79edbe8bbb3584</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Utilize reference fields for foundational data">ad3aa4b287ae1150fc79edbe8bbb35d6</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>8c7c60b687ae1150fc79edbe8bbb3584</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_8c7c60b687ae1150fc79edbe8bbb3584</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-1246106337</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>b76e1206878042507bd12fce8bbb3574</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b53900970000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>ad3aa4b287ae1150fc79edbe8bbb35d6</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>407c60b653ae115099ff6990ee096a86</update_guid>
+<update_guid_history>407c60b653ae115099ff6990ee096a86:-1246106337</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_f36c60b687ae1150fc79edbe8bbb3509</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Avoid Global Client Scripts">353ae4b287ae1150fc79edbe8bbb3512</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>f36c60b687ae1150fc79edbe8bbb3509</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_f36c60b687ae1150fc79edbe8bbb3509</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-656586271</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>b76e1206878042507bd12fce8bbb3577</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fcd50000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>353ae4b287ae1150fc79edbe8bbb3512</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>b76c60b6bcae1150101c197b950db70a</update_guid>
+<update_guid_history>b76c60b6bcae1150101c197b950db70a:-656586271</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_ff6c60b687ae1150fc79edbe8bbb352f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Fields label to be in sentence case">213aa4b287ae1150fc79edbe8bbb35d3</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>ff6c60b687ae1150fc79edbe8bbb352f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_ff6c60b687ae1150fc79edbe8bbb352f</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>365621658</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>b76e1206878042507bd12fce8bbb359e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fee60000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>213aa4b287ae1150fc79edbe8bbb35d3</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>b36c60b617ae115004ebeb4253c7ed31</update_guid>
+<update_guid_history>b36c60b617ae115004ebeb4253c7ed31:365621658</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_3f6c60b687ae1150fc79edbe8bbb3516</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Choice table should not be extended">313ae4b287ae1150fc79edbe8bbb352a</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>3f6c60b687ae1150fc79edbe8bbb3516</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_3f6c60b687ae1150fc79edbe8bbb3516</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-2004327249</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>bb6e1206878042507bd12fce8bbb3570</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fd7b0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>313ae4b287ae1150fc79edbe8bbb352a</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>ff6c60b696ae1150d95c2541d02ed517</update_guid>
+<update_guid_history>ff6c60b696ae1150d95c2541d02ed517:-2004327249</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_7f6c60b687ae1150fc79edbe8bbb3533</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Hard coded Instance URL">bd3ae4b287ae1150fc79edbe8bbb3506</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>7f6c60b687ae1150fc79edbe8bbb3533</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_7f6c60b687ae1150fc79edbe8bbb3533</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-772561857</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>bb6e1206878042507bd12fce8bbb3573</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ff060000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>bd3ae4b287ae1150fc79edbe8bbb3506</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>336c60b6b5ae11500e1bdc2fb880be35</update_guid>
+<update_guid_history>336c60b6b5ae11500e1bdc2fb880be35:-772561857</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_bf6c60b687ae1150fc79edbe8bbb3531</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="getMessage() called in Client Script">7d3ae4b287ae1150fc79edbe8bbb352f</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>bf6c60b687ae1150fc79edbe8bbb3531</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_bf6c60b687ae1150fc79edbe8bbb3531</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>1853200846</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>bb6e1206878042507bd12fce8bbb3576</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fef70000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>7d3ae4b287ae1150fc79edbe8bbb352f</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>736c60b639ae1150c0337069323c7733</update_guid>
+<update_guid_history>736c60b639ae1150c0337069323c7733:1853200846</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_376c60b687ae1150fc79edbe8bbb3545</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Reference field should not be the first field in the list view">a53aa4b287ae1150fc79edbe8bbb35c7</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>376c60b687ae1150fc79edbe8bbb3545</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_376c60b687ae1150fc79edbe8bbb3545</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>1499620061</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>bf6e1206878042507bd12fce8bbb356f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ff7b0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>a53aa4b287ae1150fc79edbe8bbb35c7</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>f76c60b6c7ae115058bfa2e932a1d946</update_guid>
+<update_guid_history>f76c60b6c7ae115058bfa2e932a1d946:1499620061</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_7b6c20b687ae1150fc79edbe8bbb35fd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Asynchronous AJAX call in on-submit client scripts">613aa4b287ae1150fc79edbe8bbb35eb</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>7b6c20b687ae1150fc79edbe8bbb35fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_7b6c20b687ae1150fc79edbe8bbb35fd</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>830888287</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>bf6e1206878042507bd12fce8bbb3572</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fc100000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>613aa4b287ae1150fc79edbe8bbb35eb</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>3f6c20b6c2ae1150ed5b55bfb555e8fe</update_guid>
+<update_guid_history>3f6c20b6c2ae1150ed5b55bfb555e8fe:830888287</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_b76c60b687ae1150fc79edbe8bbb3541</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Provide description to roles">ad3aa4b287ae1150fc79edbe8bbb35af</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>b76c60b687ae1150fc79edbe8bbb3541</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_b76c60b687ae1150fc79edbe8bbb3541</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>1635243202</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>bf6e1206878042507bd12fce8bbb3575</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ff5f0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>ad3aa4b287ae1150fc79edbe8bbb35af</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>7b6c60b6b0ae11503b9d098f44feaf42</update_guid>
+<update_guid_history>7b6c60b6b0ae11503b9d098f44feaf42:1635243202</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_ff6c60b687ae1150fc79edbe8bbb3510</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Business Rule without any conditions">3d3ae4b287ae1150fc79edbe8bbb3508</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>ff6c60b687ae1150fc79edbe8bbb3510</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_ff6c60b687ae1150fc79edbe8bbb3510</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>287709992</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>bf6e1206878042507bd12fce8bbb3578</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fd2c0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>3d3ae4b287ae1150fc79edbe8bbb3508</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>b36c60b6e7ae115033e0f2e8505f6412</update_guid>
+<update_guid_history>b36c60b6e7ae115033e0f2e8505f6412:287709992</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_007c60b687ae1150fc79edbe8bbb3567</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="UI Buttons without conditions">6d3aa4b287ae1150fc79edbe8bbb35d8</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>007c60b687ae1150fc79edbe8bbb3567</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_007c60b687ae1150fc79edbe8bbb3567</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-31574040</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:43</sys_created_on>
+<sys_id>f36e1206878042507bd12fce8bbb356e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b53900020000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:43</sys_updated_on>
+<table/>
+<target_name>6d3aa4b287ae1150fc79edbe8bbb35d8</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>c07c60b65eae11509eb61a35e8af2f68</update_guid>
+<update_guid_history>c07c60b65eae11509eb61a35e8af2f68:-31574040</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_407c60b687ae1150fc79edbe8bbb357f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Use Script Includes Instead of Global Business Rules">753ae4b287ae1150fc79edbe8bbb3510</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>407c60b687ae1150fc79edbe8bbb357f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_407c60b687ae1150fc79edbe8bbb357f</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>2121658826</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>f36e1206878042507bd12fce8bbb3571</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b53900780000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>753ae4b287ae1150fc79edbe8bbb3510</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>047c60b628ae1150c290f46c48931d80</update_guid>
+<update_guid_history>047c60b628ae1150c290f46c48931d80:2121658826</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_847c60b687ae1150fc79edbe8bbb3575</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Unprocessed Flow engine context">213aa4b287ae1150fc79edbe8bbb35ed</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>847c60b687ae1150fc79edbe8bbb3575</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_847c60b687ae1150fc79edbe8bbb3575</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-1489815441</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>f36e1206878042507bd12fce8bbb3574</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b53900190000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>213aa4b287ae1150fc79edbe8bbb35ed</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>487c60b6b6ae1150c2a130b3edab9676</update_guid>
+<update_guid_history>487c60b6b6ae1150c2a130b3edab9676:-1489815441</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_cc7c60b687ae1150fc79edbe8bbb3582</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="User table should not be extended">fd3ae4b287ae1150fc79edbe8bbb352b</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>cc7c60b687ae1150fc79edbe8bbb3582</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_cc7c60b687ae1150fc79edbe8bbb3582</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-694552360</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>f36e1206878042507bd12fce8bbb3577</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b53900900000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>fd3ae4b287ae1150fc79edbe8bbb352b</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>807c60b64cae1150064dcce35f420584</update_guid>
+<update_guid_history>807c60b64cae1150064dcce35f420584:-694552360</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_3b6c60b687ae1150fc79edbe8bbb353d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Merge onLoad() client scripts">613aa4b287ae1150fc79edbe8bbb35ba</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>3b6c60b687ae1150fc79edbe8bbb353d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_3b6c60b687ae1150fc79edbe8bbb353d</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-1009516922</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>f76e1206878042507bd12fce8bbb3570</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ff450000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>613aa4b287ae1150fc79edbe8bbb35ba</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>fb6c60b666ae1150b3e01283a2481c3e</update_guid>
+<update_guid_history>fb6c60b666ae1150b3e01283a2481c3e:-1009516922</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_7f6c60b687ae1150fc79edbe8bbb3514</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Business rules should not use current.update()">fd3ae4b287ae1150fc79edbe8bbb3504</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>7f6c60b687ae1150fc79edbe8bbb3514</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_7f6c60b687ae1150fc79edbe8bbb3514</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-2130960802</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>f76e1206878042507bd12fce8bbb3573</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fd550000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>fd3ae4b287ae1150fc79edbe8bbb3504</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>336c60b651ae11509df8083d74e37316</update_guid>
+<update_guid_history>336c60b651ae11509df8083d74e37316:-2130960802</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_bf6c60b687ae1150fc79edbe8bbb3512</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Business rules operators usage">293aa4b287ae1150fc79edbe8bbb35c3</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>bf6c60b687ae1150fc79edbe8bbb3512</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_bf6c60b687ae1150fc79edbe8bbb3512</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>2009429703</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>f76e1206878042507bd12fce8bbb3576</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fd340000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>293aa4b287ae1150fc79edbe8bbb35c3</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>736c60b661ae1150ae1004935e099d14</update_guid>
+<update_guid_history>736c60b661ae1150ae1004935e099d14:2009429703</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_376c60b687ae1150fc79edbe8bbb3526</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Don't use new Array()">fd3ae4b287ae1150fc79edbe8bbb3517</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>376c60b687ae1150fc79edbe8bbb3526</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_376c60b687ae1150fc79edbe8bbb3526</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-610392012</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>fb6e1206878042507bd12fce8bbb356f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fe5a0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>fd3ae4b287ae1150fc79edbe8bbb3517</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>f76c60b67eae11500cba66f40ff2ee27</update_guid>
+<update_guid_history>f76c60b67eae11500cba66f40ff2ee27:-610392012</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_776c60b687ae1150fc79edbe8bbb355d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Synchronous AJAX call in client scripts">e93aa4b287ae1150fc79edbe8bbb35dc</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>776c60b687ae1150fc79edbe8bbb355d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_776c60b687ae1150fc79edbe8bbb355d</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>1844013757</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>fb6e1206878042507bd12fce8bbb3572</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ffcf0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>e93aa4b287ae1150fc79edbe8bbb35dc</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>3b6c60b694ae1150eae72823b42a815e</update_guid>
+<update_guid_history>3b6c60b694ae1150eae72823b42a815e:1844013757</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_b76c60b687ae1150fc79edbe8bbb3522</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Do not use gr as a variable name">f53ae4b287ae1150fc79edbe8bbb350e</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>b76c60b687ae1150fc79edbe8bbb3522</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_b76c60b687ae1150fc79edbe8bbb3522</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>254921129</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>fb6e1206878042507bd12fce8bbb3575</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fe2f0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>f53ae4b287ae1150fc79edbe8bbb350e</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>7b6c60b684ae115008485ea1ab48c823</update_guid>
+<update_guid_history>7b6c60b684ae115008485ea1ab48c823:254921129</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_fb6c60b687ae1150fc79edbe8bbb3537</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="High number of workflows running for a single record">ad3aa4b287ae1150fc79edbe8bbb35f0</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>fb6c60b687ae1150fc79edbe8bbb3537</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_fb6c60b687ae1150fc79edbe8bbb3537</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-2127411230</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>fb6e1206878042507bd12fce8bbb3578</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ff220000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>ad3aa4b287ae1150fc79edbe8bbb35f0</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>bf6c60b687ae1150f662b35c8431f938</update_guid>
+<update_guid_history>bf6c60b687ae1150f662b35c8431f938:-2127411230</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_336c60b687ae1150fc79edbe8bbb350f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Before Business rules should not insert() records in any table">313ae4b287ae1150fc79edbe8bbb3503</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>336c60b687ae1150fc79edbe8bbb350f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_336c60b687ae1150fc79edbe8bbb350f</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-471536681</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>ff6e1206878042507bd12fce8bbb356e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fd190000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>313ae4b287ae1150fc79edbe8bbb3503</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>f36c60b69bae1150758772e66952bb10</update_guid>
+<update_guid_history>f36c60b69bae1150758772e66952bb10:-471536681</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_736c60b687ae1150fc79edbe8bbb354b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Runtime Access Tracking Validation">613aa4b287ae1150fc79edbe8bbb3554</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:38</sys_created_on><sys_id>736c60b687ae1150fc79edbe8bbb354b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_736c60b687ae1150fc79edbe8bbb354b</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:38</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-1404349891</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>ff6e1206878042507bd12fce8bbb3571</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538ffb30000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>613aa4b287ae1150fc79edbe8bbb3554</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>376c60b6ecae1150782931aecae7e64c</update_guid>
+<update_guid_history>376c60b6ecae1150782931aecae7e64c:-1404349891</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_b36c60b687ae1150fc79edbe8bbb350b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Avoid g_form.getReference() in client scripts">ad3aa4b287ae1150fc79edbe8bbb35bd</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>b36c60b687ae1150fc79edbe8bbb350b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_b36c60b687ae1150fc79edbe8bbb350b</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>2127222613</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>ff6e1206878042507bd12fce8bbb3574</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fcea0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>ad3aa4b287ae1150fc79edbe8bbb35bd</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>776c60b6e4ae1150afaaddef7a507f0c</update_guid>
+<update_guid_history>776c60b6e4ae1150afaaddef7a507f0c:2127222613</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_check_f76c60b687ae1150fc79edbe8bbb3501</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_check"><scan_check_suite_check action="INSERT_OR_UPDATE"><check display_value="Avoid &quot;delete&quot; ACL operation on table">6d3aa4b287ae1150fc79edbe8bbb35b1</check><score_weight>1</score_weight><suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</suite><sys_class_name>scan_check_suite_check</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:48:37</sys_created_on><sys_id>f76c60b687ae1150fc79edbe8bbb3501</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_check_f76c60b687ae1150fc79edbe8bbb3501</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:48:37</sys_updated_on></scan_check_suite_check></record_update>]]></payload>
+<payload_hash>-581839974</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>ff6e1206878042507bd12fce8bbb3577</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b538fc670000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name>6d3aa4b287ae1150fc79edbe8bbb35b1</target_name>
+<type>Suite Check</type>
+<update_domain>global</update_domain>
+<update_guid>bb6c60b6d6ae1150c3b1341d821ffe02</update_guid>
+<update_guid_history>bb6c60b6d6ae1150c3b1341d821ffe02:-581839974</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</application>
+<category>retrieved</category>
+<comments/>
+<name>scan_check_suite_m2m_659c64b687ae1150fc79edbe8bbb35b2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_check_suite_m2m"><scan_check_suite_m2m action="INSERT_OR_UPDATE"><child_suite display_value="Service Catalog">545d6cd604012010fa9b2578dc83b408</child_suite><parent_suite display_value="Scoped App Definitions">6237eabc53203010b846ddeeff7b12c3</parent_suite><sys_class_name>scan_check_suite_m2m</sys_class_name><sys_created_by>GIYYH</sys_created_by><sys_created_on>2022-10-18 14:49:17</sys_created_on><sys_id>659c64b687ae1150fc79edbe8bbb35b2</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Deployment Pipeline" source="sn_deploy_pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_package><sys_policy/><sys_scope display_value="Deployment Pipeline">bb67ed7253e83010b846ddeeff7b1204</sys_scope><sys_update_name>scan_check_suite_m2m_659c64b687ae1150fc79edbe8bbb35b2</sys_update_name><sys_updated_by>GIYYH</sys_updated_by><sys_updated_on>2022-10-18 14:49:17</sys_updated_on></scan_check_suite_m2m></record_update>]]></payload>
+<payload_hash>1131313950</payload_hash>
+<remote_update_set display_value="Bay - TL - Deployment Pipeline  Suite Config">ff6e1206878042507bd12fce8bbb356d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>EGMCF</sys_created_by>
+<sys_created_on>2024-01-31 21:07:44</sys_created_on>
+<sys_id>ff6e1206878042507bd12fce8bbb359e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188b53900ae0000001</sys_recorded_at>
+<sys_updated_by>EGMCF</sys_updated_by>
+<sys_updated_on>2024-01-31 21:07:44</sys_updated_on>
+<table/>
+<target_name/>
+<type>Suite Relationships</type>
+<update_domain>global</update_domain>
+<update_guid>e59c64b60fae115076dad614265835b3</update_guid>
+<update_guid_history>e59c64b60fae115076dad614265835b3:1131313950</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
