@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_table_check">
+    <scan_table_check action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <attributes/>
+        <category>manageability</category>
+        <conditions table="sys_dictionary">internal_type!=reference^column_label=User^ORcolumn_label=Location^ORcolumn_label=Group^ORcolumn_label=Company^ORcolumn_label=Role^ORcolumn_label=Users^ORcolumn_label=Groups^ORcolumn_label=Companies^ORcolumn_label=Roles^internal_type!=glide_list^EQ<item display_table="sys_glide_object" display_value="Reference" endquery="false" field="internal_type" goto="false" newquery="false" operator="!=" or="false" value="reference"/>
+            <item endquery="false" field="column_label" goto="false" newquery="false" operator="=" or="false" value="User"/>
+            <item endquery="false" field="column_label" goto="false" newquery="false" operator="=" or="true" value="Location"/>
+            <item endquery="false" field="column_label" goto="false" newquery="false" operator="=" or="true" value="Group"/>
+            <item endquery="false" field="column_label" goto="false" newquery="false" operator="=" or="true" value="Company"/>
+            <item endquery="false" field="column_label" goto="false" newquery="false" operator="=" or="true" value="Role"/>
+            <item endquery="false" field="column_label" goto="false" newquery="false" operator="=" or="true" value="Users"/>
+            <item endquery="false" field="column_label" goto="false" newquery="false" operator="=" or="true" value="Groups"/>
+            <item endquery="false" field="column_label" goto="false" newquery="false" operator="=" or="true" value="Companies"/>
+            <item endquery="false" field="column_label" goto="false" newquery="false" operator="=" or="true" value="Roles"/>
+            <item endquery="false" field="internal_type" goto="false" newquery="false" operator="!=" or="false" value="glide_list"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description>Always create reference fields if the foundational data already exists like users, locations, companies. Refer the attached chart listing foundational tables in ServiceNow.</description>
+        <documentation_url>https://docs.servicenow.com/en-US/bundle/sandiego-platform-administration/page/administer/reference-pages/reference/r_FieldTypes.html</documentation_url>
+        <finding_type>scan_finding</finding_type>
+        <name>Utilize reference fields for foundational data</name>
+        <priority>3</priority>
+        <resolution_details>Below are the foundational tables in ServiceNow-
+
+Label                                Name                              Description
+
+User                                  sys_user                         List of all ServiceNow instance users. 
+Location                         cmn_location               List of all user locations. Users are typically  associated with a location. 
+Group                              sys_user_group           List of all the groups. Users are typically associated  with groups and inherit any security roles  associated with those groups. 
+Company                       core_company             List of companies that interact with your organization. 
+Role                                  sys_yser_role               List of security roles in the instance. Some will be default roles; others will be created by your organization.   
+Task                                  task                                   The common base table that gets extended. It has  fields and functionality related to assigning work across teams and individuals, managing the state  or the cask, and other functions.</resolution_details>
+        <run_condition/>
+        <score_max>100</score_max>
+        <score_min>0</score_min>
+        <score_scale>1</score_scale>
+        <script><![CDATA[(function (engine) {
+
+    // Add your code here
+
+})(engine);]]></script>
+        <short_description>Utilize reference fields for foundational data</short_description>
+        <sys_class_name>scan_table_check</sys_class_name>
+        <sys_created_by>GIYYH</sys_created_by>
+        <sys_created_on>2022-10-18 14:38:55</sys_created_on>
+        <sys_id>ad3aa4b287ae1150fc79edbe8bbb35d6</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Utilize reference fields for foundational data</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</sys_scope>
+        <sys_update_name>scan_table_check_ad3aa4b287ae1150fc79edbe8bbb35d6</sys_update_name>
+        <sys_updated_by>EGMCF</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:57:32</sys_updated_on>
+        <table>sys_dictionary</table>
+        <use_manifest>false</use_manifest>
+    </scan_table_check>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</claim_owner_scope>
+        <claim_timestamp>18d61500bb80000001</claim_timestamp>
+        <metadata_update_name>scan_table_check_ad3aa4b287ae1150fc79edbe8bbb35d6</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>BayerCitizenDevelopment</previous_claim_name>
+        <previous_claim_scope>96ab5602878042507bd12fce8bbb3556</previous_claim_scope>
+        <sys_created_by>EGMCF</sys_created_by>
+        <sys_created_on>2024-01-31 20:57:32</sys_created_on>
+        <sys_id>121cda42878042507bd12fce8bbb35a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>EGMCF</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:57:32</sys_updated_on>
+    </sys_claim>
+</record_update>

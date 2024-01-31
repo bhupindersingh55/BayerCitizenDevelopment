@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_linter_check">
+    <scan_linter_check action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <category>performance</category>
+        <description>The value of a reference field is a sys_id. When you dot-walk to the sys_id, the system does an additional database query to retrieve the caller_id record, then retrieves the sys_id. This can lead to performance issues.</description>
+        <documentation_url>https://developer.servicenow.com/dev.do#!/guides/rome/now-platform/tpb-guide/scripting_technical_best_practices#avoid-dot-walking-to-the-sys-id-of-a-reference-field</documentation_url>
+        <finding_type>scan_finding</finding_type>
+        <name>Avoid Dot-Walking to the sys_id of a Reference Field</name>
+        <priority>2</priority>
+        <resolution_details>Instead of 
+var id = current.caller_id.sys_id;
+
+use 
+var id = current.getValue('caller_id');</resolution_details>
+        <run_condition/>
+        <score_max>100</score_max>
+        <score_min>0</score_min>
+        <score_scale>1</score_scale>
+        <script><![CDATA[(function (engine) {
+
+    engine.rootNode.visit(function(node) {
+  if (node.getNameIdentifier() && node.getNameIdentifier() === 'sys_id' 
+   && node.getParent().getTypeName() === 'GETPROP') {
+
+   // Found dot-walk to sys_id. Check for sibling nodes
+   var numChildren = 0;
+   node.getParent().visit(function(childnode) {
+    if (childnode.getTypeName() === "GETPROP") {
+     numChildren++;
+    }
+   });
+   // Ignore parent nodes with only one child where sys_id is the child
+   // eg. current.sys_id
+   // Assume all other parents with multiple children are dot-walks to sys_id
+   // of a reference field eg. current.caller_id.sys_id
+   // Where children = [current.caller_id, current.caller_id.sys_id]
+   if (numChildren > 1)
+    engine.finding.incrementWithNode(node);
+  }
+ });
+
+})(engine);]]></script>
+        <short_description>Avoid Dot-Walking to the sys_id of a Reference Field</short_description>
+        <sys_class_name>scan_linter_check</sys_class_name>
+        <sys_created_by>GIYYH</sys_created_by>
+        <sys_created_on>2022-10-18 14:38:55</sys_created_on>
+        <sys_id>b13ae4b287ae1150fc79edbe8bbb3501</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Avoid Dot-Walking to the sys_id of a Reference Field</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</sys_scope>
+        <sys_update_name>scan_linter_check_b13ae4b287ae1150fc79edbe8bbb3501</sys_update_name>
+        <sys_updated_by>EGMCF</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:57:34</sys_updated_on>
+    </scan_linter_check>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</claim_owner_scope>
+        <claim_timestamp>18d6150151a0000001</claim_timestamp>
+        <metadata_update_name>scan_linter_check_b13ae4b287ae1150fc79edbe8bbb3501</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>BayerCitizenDevelopment</previous_claim_name>
+        <previous_claim_scope>96ab5602878042507bd12fce8bbb3556</previous_claim_scope>
+        <sys_created_by>EGMCF</sys_created_by>
+        <sys_created_on>2024-01-31 20:57:34</sys_created_on>
+        <sys_id>8b1c1e42878042507bd12fce8bbb3561</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>EGMCF</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:57:34</sys_updated_on>
+    </sys_claim>
+</record_update>

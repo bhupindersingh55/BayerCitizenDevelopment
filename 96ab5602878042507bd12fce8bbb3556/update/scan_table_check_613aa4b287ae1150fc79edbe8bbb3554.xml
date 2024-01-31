@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_table_check">
+    <scan_table_check action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <attributes/>
+        <category>security</category>
+        <conditions table="sys_app">runtime_access_trackingINpermissive,enforcing^EQ<item display_value="permissive,enforcing" endquery="false" field="runtime_access_tracking" goto="false" newquery="false" operator="IN" or="false" value="permissive,enforcing"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description>A custom application which has "runtime access " set to tracking will be changed to enforced automatically during app installation on the target instance.</description>
+        <documentation_url>https://docs.servicenow.com/bundle/rome-application-development/page/build/applications/reference/c_CrossScopePrivilegeRecord.html</documentation_url>
+        <finding_type>scan_finding</finding_type>
+        <name>Runtime Access Tracking Validation</name>
+        <priority>3</priority>
+        <resolution_details>• A custom application which has "runtime access " set to tracking will be changed to enforced automatically during app installation on the target instance.
+• During testing, application developers should run all their application scripting logic to ensure the system creates any necessary cross-scope privilege records. After application publication, the system only allows runtime requests to run that have a valid cross-scope privilege record.</resolution_details>
+        <run_condition/>
+        <score_max>100</score_max>
+        <score_min>0</score_min>
+        <score_scale>1</score_scale>
+        <script><![CDATA[(function (engine) {
+
+ // Declare variables
+ var scopeID = engine.current.getValue('scope');
+ 
+    // If no cross scope privilege record exists 
+ var crossScope = new GlideRecord('sys_scope_privilege');
+ crossScope.addQuery('source_scope',scopeID);
+ crossScope.setLimit(1);
+ crossScope.query();
+ if(!crossScope.next()) {
+  engine.finding.increment();
+ }
+
+})(engine);]]></script>
+        <short_description>Runtime Access Tracking Validation</short_description>
+        <sys_class_name>scan_table_check</sys_class_name>
+        <sys_created_by>GIYYH</sys_created_by>
+        <sys_created_on>2022-10-18 14:38:54</sys_created_on>
+        <sys_id>613aa4b287ae1150fc79edbe8bbb3554</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Runtime Access Tracking Validation</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</sys_scope>
+        <sys_update_name>scan_table_check_613aa4b287ae1150fc79edbe8bbb3554</sys_update_name>
+        <sys_updated_by>EGMCF</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:57:30</sys_updated_on>
+        <table>sys_app</table>
+        <use_manifest>false</use_manifest>
+    </scan_table_check>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</claim_owner_scope>
+        <claim_timestamp>18d615003d90000001</claim_timestamp>
+        <metadata_update_name>scan_table_check_613aa4b287ae1150fc79edbe8bbb3554</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>BayerCitizenDevelopment</previous_claim_name>
+        <previous_claim_scope>96ab5602878042507bd12fce8bbb3556</previous_claim_scope>
+        <sys_created_by>EGMCF</sys_created_by>
+        <sys_created_on>2024-01-31 20:57:30</sys_created_on>
+        <sys_id>351cda42878042507bd12fce8bbb3529</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>EGMCF</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:57:30</sys_updated_on>
+    </sys_claim>
+</record_update>

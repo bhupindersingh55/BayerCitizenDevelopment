@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_table_check">
+    <scan_table_check action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <attributes/>
+        <category>security</category>
+        <conditions table="sys_security_acl_role">sys_security_acl.operation=delete^sys_security_acl.active=true^EQ<item display_table="sys_security_operation" display_value="delete" endquery="false" field="sys_security_acl.operation" goto="false" newquery="false" operator="=" or="false" value="delete"/>
+            <item endquery="false" field="sys_security_acl.active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description>Avoid "delete" ACL operation on the table as this may lead to accidental data loss.</description>
+        <documentation_url/>
+        <finding_type>scan_finding</finding_type>
+        <name>Avoid "delete" ACL operation on table</name>
+        <priority>2</priority>
+        <resolution_details>Avoid "delete" ACL operation on table as this may lead to accidental data loss.  This also applies to application adminsitartor role.
+
+To fix the issue, you may either use True/False (if already exists) or create new one. Once True/False field is available then apply the Reference Qualifier to Reference fields to exclude inactive records. In addition to this, reports can also be updated to include the inactive filter condition.</resolution_details>
+        <run_condition/>
+        <score_max>100</score_max>
+        <score_min>0</score_min>
+        <score_scale>1</score_scale>
+        <script><![CDATA[(function (engine) {
+
+    // Add your code here
+
+})(engine);]]></script>
+        <short_description>Avoid "delete" ACL operation on the table</short_description>
+        <sys_class_name>scan_table_check</sys_class_name>
+        <sys_created_by>GIYYH</sys_created_by>
+        <sys_created_on>2022-10-18 14:38:54</sys_created_on>
+        <sys_id>6d3aa4b287ae1150fc79edbe8bbb35b1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Avoid "delete" ACL operation on table</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</sys_scope>
+        <sys_update_name>scan_table_check_6d3aa4b287ae1150fc79edbe8bbb35b1</sys_update_name>
+        <sys_updated_by>EGMCF</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:57:29</sys_updated_on>
+        <table>sys_security_acl_role</table>
+        <use_manifest>false</use_manifest>
+    </scan_table_check>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</claim_owner_scope>
+        <claim_timestamp>18d615001bd0000001</claim_timestamp>
+        <metadata_update_name>scan_table_check_6d3aa4b287ae1150fc79edbe8bbb35b1</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>BayerCitizenDevelopment</previous_claim_name>
+        <previous_claim_scope>96ab5602878042507bd12fce8bbb3556</previous_claim_scope>
+        <sys_created_by>EGMCF</sys_created_by>
+        <sys_created_on>2024-01-31 20:57:29</sys_created_on>
+        <sys_id>391cda42878042507bd12fce8bbb3501</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>EGMCF</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:57:29</sys_updated_on>
+    </sys_claim>
+</record_update>

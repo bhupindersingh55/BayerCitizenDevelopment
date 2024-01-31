@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_table_check">
+    <scan_table_check action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <attributes/>
+        <category>security</category>
+        <conditions table="sys_restricted_caller_access">status=0^ORstatus=^EQ<item display_value="Requested" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="0"/>
+            <item endquery="false" field="status" goto="false" newquery="false" operator="=" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description>The developer or system administrator should review any open restricted caller access privilege records. Reviewing to decide if cross-scope access to an application, application resource (such as an access control role, a business rule, a UI action, or a script include), or event should be allowed or denied.</description>
+        <documentation_url>https://docs.servicenow.com/csh?topicname=requested-rca.html&amp;version=latest</documentation_url>
+        <finding_type>scan_finding</finding_type>
+        <name>Requested Restricted Caller Access Privileges</name>
+        <priority>3</priority>
+        <resolution_details>Review any restricted caller access privilege records with status "Requested".</resolution_details>
+        <run_condition/>
+        <score_max>100</score_max>
+        <score_min>0</score_min>
+        <score_scale>1</score_scale>
+        <script><![CDATA[(function (engine) {
+
+    // Add your code here
+
+})(engine);]]></script>
+        <short_description>Requested Restricted Caller Access Privileges</short_description>
+        <sys_class_name>scan_table_check</sys_class_name>
+        <sys_created_by>GIYYH</sys_created_by>
+        <sys_created_on>2022-10-18 14:38:55</sys_created_on>
+        <sys_id>713aa4b287ae1150fc79edbe8bbb35f7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Requested Restricted Caller Access Privileges</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</sys_scope>
+        <sys_update_name>scan_table_check_713aa4b287ae1150fc79edbe8bbb35f7</sys_update_name>
+        <sys_updated_by>EGMCF</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:57:35</sys_updated_on>
+        <table>sys_restricted_caller_access</table>
+        <use_manifest>false</use_manifest>
+    </scan_table_check>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</claim_owner_scope>
+        <claim_timestamp>18d615016ab0000001</claim_timestamp>
+        <metadata_update_name>scan_table_check_713aa4b287ae1150fc79edbe8bbb35f7</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>BayerCitizenDevelopment</previous_claim_name>
+        <previous_claim_scope>96ab5602878042507bd12fce8bbb3556</previous_claim_scope>
+        <sys_created_by>EGMCF</sys_created_by>
+        <sys_created_on>2024-01-31 20:57:35</sys_created_on>
+        <sys_id>871c1e42878042507bd12fce8bbb3579</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>EGMCF</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:57:35</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_class" label="Class" language="en" table="u_imp_intance_scan_defs_global">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_class</element>
+            <help/>
+            <hint/>
+            <label>Class</label>
+            <language>en</language>
+            <name>u_imp_intance_scan_defs_global</name>
+            <plural>Class</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>EGIWN</sys_created_by>
+            <sys_created_on>2023-06-13 14:42:54</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Class</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_intance_scan_defs_global_u_class_en</sys_update_name>
+            <sys_updated_by>EGMCF</sys_updated_by>
+            <sys_updated_on>2024-01-31 20:57:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</claim_owner_scope>
+        <claim_timestamp>18d615016fa0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_u_imp_intance_scan_defs_global_u_class_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>BayerCitizenDevelopment</previous_claim_name>
+        <previous_claim_scope>96ab5602878042507bd12fce8bbb3556</previous_claim_scope>
+        <sys_created_by>EGMCF</sys_created_by>
+        <sys_created_on>2024-01-31 20:57:35</sys_created_on>
+        <sys_id>4f1c1e42878042507bd12fce8bbb357d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>EGMCF</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:57:35</sys_updated_on>
+    </sys_claim>
+</record_update>

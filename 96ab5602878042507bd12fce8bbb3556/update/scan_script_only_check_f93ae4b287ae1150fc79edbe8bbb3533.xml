@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scan_script_only_check">
+    <scan_script_only_check action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <category>user_experience</category>
+        <description>Code that uses synchronous AJAX feels very slow and affects user experience.</description>
+        <documentation_url>https://support.servicenow.com/kb?id=kb_article_view&amp;sysparm_article=KB0289269</documentation_url>
+        <finding_type>scan_finding</finding_type>
+        <name>Synchronous AJAX call in client scripts</name>
+        <priority>3</priority>
+        <resolution_details>If using getXMLWait, replace with getXML and a callback function.</resolution_details>
+        <run_condition/>
+        <score_max>100</score_max>
+        <score_min>0</score_min>
+        <score_scale>1</score_scale>
+        <script><![CDATA[(function (finding) {
+ var updateVersionAPI = new global.UpdateVersionAPI(); // updateVersionAPI to find custom sys_metadata records
+ var clientScripts = new GlideRecord('sys_script_client');
+ clientScripts.addQuery('sys_class_name','sys_script_client');
+ // get all active custom client scripts with getXMLWait in it.
+    clientScripts.addEncodedQuery("active=true^scriptLIKEgetXMLWait"); 
+ clientScripts.query();
+ var resClientScripts = updateVersionAPI.getCustomerFileIds(clientScripts); // Find the custom clientscripts with getXMLWait
+ if(resClientScripts.length > 0){ //If there are custom client scripts using getXMLWait
+  for (var i = 0; i < resClientScripts.length; i++){
+   var csGr = new GlideRecord('sys_script_client');
+   // Get the specific client script and create finding records.
+   csGr.get(resClientScripts[i]);
+   finding.setCurrentSource(csGr); 
+   finding.increment();
+  }
+ } 
+})(finding);]]></script>
+        <short_description>Synchronous AJAX call in client scripts</short_description>
+        <sys_class_name>scan_script_only_check</sys_class_name>
+        <sys_created_by>GIYYH</sys_created_by>
+        <sys_created_on>2022-10-18 14:38:56</sys_created_on>
+        <sys_id>f93ae4b287ae1150fc79edbe8bbb3533</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Synchronous AJAX call in client scripts</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</sys_scope>
+        <sys_update_name>scan_script_only_check_f93ae4b287ae1150fc79edbe8bbb3533</sys_update_name>
+        <sys_updated_by>EGMCF</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:57:29</sys_updated_on>
+    </scan_script_only_check>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="BayerCitizenDevelopment">96ab5602878042507bd12fce8bbb3556</claim_owner_scope>
+        <claim_timestamp>18d614fff110000001</claim_timestamp>
+        <metadata_update_name>scan_script_only_check_f93ae4b287ae1150fc79edbe8bbb3533</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>BayerCitizenDevelopment</previous_claim_name>
+        <previous_claim_scope>96ab5602878042507bd12fce8bbb3556</previous_claim_scope>
+        <sys_created_by>EGMCF</sys_created_by>
+        <sys_created_on>2024-01-31 20:57:29</sys_created_on>
+        <sys_id>251c9a42878042507bd12fce8bbb35dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>EGMCF</sys_updated_by>
+        <sys_updated_on>2024-01-31 20:57:29</sys_updated_on>
+    </sys_claim>
+</record_update>
